@@ -3,8 +3,6 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 import { name } from './package.json'
 
-console.log(name);
-
 export default defineConfig({
   base: `/${name}`,
   plugins: [],
